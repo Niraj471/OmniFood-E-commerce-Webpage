@@ -1,0 +1,105 @@
+/*for big tablets which vary from 1023 to 1200px*/
+@media only screen and (max-width: 1200px) {
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+        margin-left:100px ;
+    }
+    .row{
+        padding:  0 2%;
+    } 
+    .plan-box{
+      width: 102%;
+      height: 50vh;
+    } 
+    .contact-form{
+        margin-left: 55px;
+    } 
+
+    .section-meal{
+      margin-right: 10px;
+      width: 97%;
+    }
+    .meal-showcase  li{
+      width: 25%;
+    }
+  }
+
+
+
+  /*for small tablets to big tablets which vary from 768 to 1023px*/
+@media only screen and (max-width: 1023px) {
+          .long-copy{
+            width: 80%;
+            margin-left: 10%;
+          }
+          body{font-size: 18px;}
+          section{padding: 60px 0;}
+          .steps-box{margin-top: 10px;}
+          .steps-box:last-child{margin-top: 10px;}
+          .work-steps{margin-bottom: 40px;}
+          .work-steps:last-of-type{margin-bottom: 40px; padding-top: 10px;}
+          .app-screen{width: 50%;}
+          .icon-small{width: 17px;margin-right: 5px;}
+          .plan-box{width: 100%;margin-left: 0%;}
+          .plan-price{font-size: 250%;}
+          .contact-form{margin-left: 110px; width: 90%;}
+
+  }
+
+
+
+/*for small phones to small tablets which vary from 481 to 767px*/
+@media only screen and (max-width: 767px) {
+          body{font-size: 16px;}
+          section{padding: 30px 0px;}
+          .hero-text-box{padding: 0 4%;}
+          .col{
+            width: 100%;
+            margin: 0 0 4% 0;
+          }
+          .main-nav{display:none;}
+          .app-screen{width: 40%;}
+          .steps-box:first-child{text-align: center;}
+          .work-steps {
+            padding-top: 10px;}
+
+  .work-steps p{
+    padding-top: 15px;
+    font-weight: 140%;
+  }
+
+  .section-testimonials{
+    margin-top: 2500px;
+  }
+
+  .section-plan{
+    height: 180vh;
+    margin-bottom: 20px;
+  }
+  .plan-box{
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .section-form{
+    margin-top: 80px;
+    width: 80%;
+  }
+  .contact-form{
+  margin-left: 30px;
+  }
+
+  .footer-nav{
+    margin-top: 40px;
+  }
+}
+
+
+
+/*for small phones which vary from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+          section{padding: 25px 0;}
+          .contact-form{width:100% ;}
+  }
+  
